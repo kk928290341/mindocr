@@ -1509,7 +1509,7 @@
 <li>
 <p>两种方式定义模型</p>
 <p>a. 编写一个模型py文件，其中包括模型类和规范函数。请遵循<a href="../../../mindocr/models#模型py文件格式指南">模型格式指南</a>。它允许用户方便地调用预定义的模型，例如<code>model = build_model('dbnet_resnet50', pretrained=True)</code> 。</p>
-<p>b. 在yaml文件中配置体系结构。请遵循<a href="#yaml文件格式指南">yaml格式指南</a>。它允许用户在yaml文件中快速修改基本架构。</p>
+<p>b. 在yaml文件中配置体系结构。请遵循<a href="../../../mindocr/models#yaml文件格式指南">yaml格式指南</a>。它允许用户在yaml文件中快速修改基本架构。</p>
 </li>
 <li>
 <p>为验证编写模型的正确性，请在<code>test_models.py</code>中添加yaml配置文件路径，修改main函数构建所需模型，然后运行<code>test_models.py</code></p>
